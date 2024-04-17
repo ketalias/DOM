@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/roman07/js_dox/mail_folder/mail.css">
+    <script src="/Users/roman07/js_dox/mail_folder/mail_calc.js"></script>
+    <title>Mail</title>
+</head>
+<body>
+    <div class="container">
+    <label for="price">Вартість товару:</label>
+    <input type="number" id="price" name="price" placeholder="Введіть вартість товару"><br><br>
+
+    <label for="weight">Вага:</label>
+    <input type="number" id="weight" name="weight" placeholder="Введіть масу товару"><br><br>
+
+    <label for="tax"> Страховка 2%:</label>
+    <input type="checkbox" id="tax" name="tax"><br><br>
+
+    <label for="totalCost">Загальна вартість:</label>
+    <input type="text" id="totalCost" name="totalCost" ><br><br>
+
+    
+    <button type="button" id="calculateButton" onclick="calculateTotalPrice()">Розрахувати</button> 
+    </div>
+</body>
+</html>
